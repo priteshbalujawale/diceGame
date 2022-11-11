@@ -81,7 +81,7 @@ holdBtn.addEventListener("click", function () {
       scores[activePlayer];
     //check if active player's score is >=100
     // scores[activePlayer]>=100 ?`Player ${activePlayer +1} Win The Game`:switchPlayer();
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100){
       playing = false;
       document
         .querySelector(`.player-${activePlayer}`)
